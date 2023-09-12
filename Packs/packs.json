@@ -54,5 +54,16 @@
         "GrafanaDashboard": "./Packs/IaaS/IIS/Azure Monitor Starter Pack _ IIS-1692341727216.json",
         "moduleParameters": [
         ]      
+    },
+    {
+        "PackName": "AMSP-VWAN",
+        "RuleName": "AMSP-VWAN",
+        "ModuleType": "PaaS",
+        "Status": "Enabled",
+        "RequiredTag" : "vwan",
+        "TemplateLocation" : "./Packs/PaaS/VWAN/VWAN.bicep",
+        "GrafanaDashboard": "./Packs/PaaS/VWAN/Azure Monitor Starter Pack _ VWAN.json",
+        "moduleParameters": [
+        ]      
     }
 ]
