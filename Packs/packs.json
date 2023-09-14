@@ -61,7 +61,7 @@
         "ModuleType": "PaaS",
         "Status": "Enabled",
         "RequiredTag" : "vwan",
-        "TemplateLocation" : "./Packs/PaaS/VWAN/VWAN.bicep",
+        "TemplateLocation" : "./Packs/PaaS/VWAN/VWANMonitoring.bicep",
         "GrafanaDashboard": "./Packs/PaaS/VWAN/Azure Monitor Starter Pack _ VWAN.json",
         "moduleParameters": [
         ]      
